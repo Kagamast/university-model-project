@@ -2,8 +2,9 @@
 #include <iostream>
 using namespace std;
 
-Employee::Employee(string name, string id) : Person(name, id) {
-    
+Employee::Employee(string name, string id) {
+    this->name = name;
+    this->id = id;
 }
 
 string Employee::getName() {

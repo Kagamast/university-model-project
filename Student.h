@@ -7,6 +7,9 @@ using namespace std;
 #include "Subject.h"
 
 class Student : public Person {
+    private:
+        string name;
+        string id;
         vector<Subject> subjects;
     public:
         Student(string name, string id);

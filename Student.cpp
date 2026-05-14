@@ -2,7 +2,9 @@
 #include <iostream>
 using namespace std;
 
-Student::Student(string name, string id) : Person(name, id) {
+Student::Student(string name, string id) {
+    this->name = name;
+    this->id = id;
     
 }
 

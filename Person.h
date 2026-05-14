@@ -3,11 +3,8 @@
 using namespace std;
 
 class Person {
-    protected:
-        string name;
-        string id;
     public:
-        Person(string name, string id);
+        Person();
         virtual string getName() = 0;
         virtual string getId() = 0;
 
